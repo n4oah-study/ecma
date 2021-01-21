@@ -9,6 +9,7 @@
     "private-accessors": "node ./scripts/private-accessors.js",
     "weak-ref": "node --expose-gc ./scripts/weak-ref.js",
     "logical-assignment-operators": "node ./scripts/logical-assignment-operators.js",
-    "promise-any": "node ./scripts/promise-any.js"
+    "promise-any": "node ./scripts/promise-any.js",
+    "numeric-separators": "node ./scripts/numeric-separators.js"
   }
 }

@@ -8,6 +8,7 @@
 - [WeakRef and Finalizers](#WeakRef-and-Finalizers)
 - [Logical Assignment Operators](#Logical-Assignment-Operators)
 - [Promise.any](#Promise.any)
+- [Numeric Separators](#Numeric-Separators)
 
 ## String.prototype.replaceAll
 
@@ -128,3 +129,10 @@ const p4 = new Promise((resolve, reject) => {
 })();
 ```
 - ~~이걸 어따쓰지~~
+
+## Numeric Separators
+
+- 수의 단위가 높아지면 한 눈에 읽을 수 없음
+```js
+const 10billion = 1_000_000_000 // 10억
+```
