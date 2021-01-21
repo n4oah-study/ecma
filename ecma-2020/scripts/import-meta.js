@@ -1,0 +1,1 @@
+import './import-meta-module.js?any=5';

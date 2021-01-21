@@ -1,0 +1,18 @@
+{
+  "name": "ecma-2020",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "bigint": "node ./scripts/bigint.js",
+    "import": "node ./scripts/import.js",
+    "import-meta": "node ./scripts/import-meta.js",
+    "optional-chaining": "node ./scripts/optional-chaining.js",
+    "promise-all-settled": "node ./scripts/promise-all-settled.js",
+    "string-prototype-match-all": "node ./scripts/string-prototype-match-all.js"
+  },
+  "dependencies": {
+    "mathjs": "^9.0.0"
+  }
+}
