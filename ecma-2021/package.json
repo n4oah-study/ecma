@@ -1,0 +1,14 @@
+{
+  "name": "ecma-2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "string-prototype-replace-all": "node ./scripts/string-prototype-replace-all.js",
+    "private-method": "node ./scripts/private-method.js",
+    "private-accessors": "node ./scripts/private-accessors.js",
+    "weak-ref": "node --expose-gc ./scripts/weak-ref.js",
+    "logical-assignment-operators": "node ./scripts/logical-assignment-operators.js",
+    "promise-any": "node ./scripts/promise-any.js"
+  }
+}
